@@ -1,0 +1,1 @@
+gcc -Wl,--add-stdcall-alias -shared -o hello.dll HelloJNI.o

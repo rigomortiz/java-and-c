@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/regoeco/Documentos/projects/java-and-c/c/main.c
+stdio.h
+-
+stdlib.h
+-
+sys/file.h
+-
+unistd.h
+-
+fcntl.h
+-
+
